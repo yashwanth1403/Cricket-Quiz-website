@@ -100,6 +100,6 @@ submit.addEventListener("click", () => {
 <p>Congratutations on completing the quiz! </p>
 <button class="reload-button" onclick="location.reload()">play Again</button>
   </div>`;
-    image.style.backgroundImage = "url( 'images/kohil-Naveen.jpg')";
+    image.style.backgroundImage = "url( 'images/kohil-naveen.jpg')";
   }
 });
