@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "AR One Sans", sans-serif;
+}
+
+.load-img {
+  width: 500px;
+  height: 330px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #c1e2ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.quiz-section {
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+}
+.question {
+  margin-left: 7px;
+  margin-bottom: 2px;
+  font-size: 20px;
+}
+input[type="radio"] {
+  border: 0px;
+  width: 1.5rem;
+  height: 1.5em;
+}
+.quiz-section li {
+  width: fit-content;
+  margin: 10px;
+  list-style: none;
+  border: 0.7px solid black;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.submit-btn {
+  background-color: #663399;
+  color: white;
+  font-size: larger;
+  font-weight: 100;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.reload-button {
+  background-color: #663399;
+  width: fit-content;
+  border-radius: 10px;
+  color: azure;
+  padding: 15px;
+  cursor: pointer;
+}
+.options {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .load-img {
+    display: flex;
+    align-self: center;
+    width: 400px;
+    height: 300px;
+  }
+}
